@@ -195,9 +195,24 @@ main {
 /*----------Footer styling----------*/
 footer {
     display: flex;
-    flex-direction: column;
-    align-items: end;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
     gap: 8px;
+}
+
+.linkedin img {
+    object-fit: contain;
+    height: 24px;
+}
+
+.email img {
+    object-fit: contain;
+    height: 24px;
+}
+
+.linkedin , .email {
+    border: none;
 }
 
 /*----------------------------------*/
